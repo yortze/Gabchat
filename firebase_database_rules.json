@@ -1,0 +1,49 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    "messages": {
+      "$conversationId": {
+        ".read": "auth != null && ($conversationId.contains(auth.uid))",
+        ".write": "auth != null && ($conversationId.contains(auth.uid))",
+        "$messageId": {
+          ".validate": "newData.hasChildren(['senderId','type','timestamp'])"
+        }
+      }
+    },
+    "group_messages": {
+      "$groupId": {
+        ".read": "auth != null && root.child('groups').child($groupId).child('members').child(auth.uid).exists()",
+        ".write": "auth != null && root.child('groups').child($groupId).child('members').child(auth.uid).exists()"
+      }
+    },
+    "conversations": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null"
+      }
+    },
+    "groups": {
+      "$groupId": {
+        ".read": "auth != null && data.child('members').child(auth.uid).exists()",
+        ".write": "auth != null && (data.child('createdBy').val() === auth.uid || !data.exists())"
+      }
+    },
+    "user_groups": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null"
+      }
+    },
+    "typing": {
+      "$conversationId": {
+        ".read": "auth != null && ($conversationId.contains(auth.uid))",
+        ".write": "auth != null && ($conversationId.contains(auth.uid))"
+      }
+    }
+  }
+}

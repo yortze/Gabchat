@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GabChat</string>
+    <string name="app_tagline">Messagerie gabonaise 🇬🇦</string>
+
+    <!-- Auth -->
+    <string name="login_title">Connexion</string>
+    <string name="register_title">Créer un compte</string>
+    <string name="email_hint">Adresse e-mail</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="confirm_password_hint">Confirmer le mot de passe</string>
+    <string name="name_hint">Nom complet</string>
+    <string name="phone_hint">Numéro de téléphone</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="btn_register">S\'inscrire</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="or_continue_with">Ou continuer avec</string>
+    <string name="sign_in_google">Continuer avec Google</string>
+    <string name="sign_in_phone">Connexion par téléphone</string>
+
+    <!-- OTP -->
+    <string name="otp_title">Vérification OTP</string>
+    <string name="otp_hint">Code à 6 chiffres</string>
+    <string name="btn_verify">Vérifier</string>
+    <string name="resend_code">Renvoyer le code</string>
+
+    <!-- Main -->
+    <string name="tab_chats">Chats</string>
+    <string name="tab_status">Statuts</string>
+    <string name="tab_contacts">Contacts</string>
+    <string name="tab_profile">Profil</string>
+    <string name="no_conversations">Aucune conversation.\nCommencez à chatter !</string>
+    <string name="no_contacts">Aucun contact trouvé</string>
+
+    <!-- Chat -->
+    <string name="message_hint">Message...</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="message_deleted">🚫 Message supprimé</string>
+    <string name="typing">est en train d\'écrire...</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="default_status">Disponible 🇬🇦</string>
+    <string name="no_bio">Aucune biographie</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="privacy">Confidentialité</string>
+    <string name="security">Sécurité</string>
+    <string name="about">À propos</string>
+    <string name="logout">Déconnexion</string>
+
+    <!-- Groups -->
+    <string name="create_group">Créer un groupe</string>
+    <string name="group_name_hint">Nom du groupe</string>
+    <string name="group_desc_hint">Description (optionnel)</string>
+    <string name="select_members">Sélectionner des membres</string>
+
+    <!-- Calls -->
+    <string name="calling">Appel en cours...</string>
+    <string name="incoming_call">Appel entrant</string>
+    <string name="accept">Accepter</string>
+    <string name="decline">Refuser</string>
+    <string name="end_call">Raccrocher</string>
+
+    <!-- Errors -->
+    <string name="error_network">Pas de connexion internet</string>
+    <string name="error_generic">Une erreur est survenue</string>
+
+    <!-- Placeholders for Firebase config - replace with actual values -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+</resources>

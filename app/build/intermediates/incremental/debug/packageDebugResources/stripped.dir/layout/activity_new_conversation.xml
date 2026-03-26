@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="@color/gabchat_green"
+            android:title="Nouvelle conversation" app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Create group button -->
+        <LinearLayout android:id="@+id/btn_create_group"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingStart="16dp" android:background="?attr/selectableItemBackground"
+            android:paddingEnd="16dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                android:background="@drawable/bg_group_icon"
+                android:src="@drawable/ic_group" android:tint="@color/white"
+                android:padding="8dp" android:layout_marginEnd="14dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Nouveau groupe" android:textSize="15sp"
+                android:textColor="@color/text_primary" android:textStyle="bold" />
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0.5dp"
+            android:background="@color/divider" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:startIconDrawable="@drawable/ic_search"
+            app:boxCornerRadiusTopStart="28dp" app:boxCornerRadiusTopEnd="28dp"
+            app:boxCornerRadiusBottomStart="28dp" app:boxCornerRadiusBottomEnd="28dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="Rechercher..." android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_users"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="@color/colorSurface" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">699167362968-eqb8ime5tq6gt47rl3pkb3j1bjevc4pm.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">699167362968</string>
+    <string name="google_api_key" translatable="false">AIzaSyAjux6C1Qv4fOtFNK5rQEHfJfJ-wEAkhPc</string>
+    <string name="google_app_id" translatable="false">1:699167362968:android:fe15281b2fb21ae27ce5ed</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAjux6C1Qv4fOtFNK5rQEHfJfJ-wEAkhPc</string>
+    <string name="google_storage_bucket" translatable="false">gabchat-b7539.firebasestorage.app</string>
+    <string name="project_id" translatable="false">gabchat-b7539</string>
+</resources>

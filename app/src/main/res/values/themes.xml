@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GabChat" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/gabchat_green</item>
+        <item name="colorPrimaryVariant">@color/gabchat_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gabchat_yellow</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/gabchat_green_dark</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="Theme.GabChat.Splash" parent="Theme.GabChat">
+        <item name="android:windowBackground">@color/gabchat_green</item>
+        <item name="android:statusBarColor">@color/gabchat_green</item>
+    </style>
+
+    <style name="Theme.GabChat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Toolbar style -->
+    <style name="GabChatToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/gabchat_green</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <!-- Chat bubble - Sent -->
+    <style name="BubbleSent">
+        <item name="android:background">@drawable/bg_bubble_sent</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Chat bubble - Received -->
+    <style name="BubbleReceived">
+        <item name="android:background">@drawable/bg_bubble_received</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- TextInputLayout style -->
+    <style name="GabChatInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/gabchat_green</item>
+        <item name="hintTextColor">@color/gabchat_green</item>
+    </style>
+
+    <!-- Button primary -->
+    <style name="GabChatButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/gabchat_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <!-- FAB style -->
+    <style name="GabChatFAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/gabchat_green</item>
+        <item name="tint">@color/white</item>
+    </style>
+</resources>

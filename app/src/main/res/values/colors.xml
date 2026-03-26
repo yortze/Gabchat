@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Palette GabChat - Couleurs inspirées du drapeau gabonais -->
+    <color name="gabchat_green">#009A44</color>
+    <color name="gabchat_green_dark">#007A35</color>
+    <color name="gabchat_green_light">#4CAF7A</color>
+    <color name="gabchat_yellow">#FCD116</color>
+    <color name="gabchat_yellow_dark">#E5BC00</color>
+    <color name="gabchat_blue">#003F87</color>
+    <color name="gabchat_blue_light">#1565C0</color>
+
+    <!-- UI Colors -->
+    <color name="colorPrimary">#009A44</color>
+    <color name="colorPrimaryDark">#007A35</color>
+    <color name="colorAccent">#FCD116</color>
+    <color name="colorBackground">#F0F4F8</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Chat bubble colors -->
+    <color name="bubble_sent">#DCF8C6</color>
+    <color name="bubble_sent_dark">#009A44</color>
+    <color name="bubble_received">#FFFFFF</color>
+    <color name="bubble_received_dark">#2C2C2C</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Status -->
+    <color name="online_green">#4CAF50</color>
+    <color name="offline_gray">#9E9E9E</color>
+    <color name="unread_badge">#009A44</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+    <color name="ripple">#1A009A44</color>
+
+    <!-- Dark theme -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_bubble_sent">#005C2E</color>
+</resources>

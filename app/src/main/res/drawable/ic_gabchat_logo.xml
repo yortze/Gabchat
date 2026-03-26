@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp" android:height="120dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <!-- White circle background -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M60,4 A56,56 0 1,1 59.99,4 Z"/>
+    <!-- Green chat bubble -->
+    <path android:fillColor="#009A44"
+        android:pathData="M25,35 Q25,22 38,22 L82,22 Q95,22 95,35 L95,65 Q95,78 82,78 L68,78 L56,90 L56,78 L38,78 Q25,78 25,65 Z"/>
+    <!-- Message lines in white -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M38,44 L82,44 Q84,44 84,46 Q84,48 82,48 L38,48 Q36,48 36,46 Q36,44 38,44 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M38,54 L70,54 Q72,54 72,56 Q72,58 70,58 L38,58 Q36,58 36,56 Q36,54 38,54 Z"/>
+    <!-- Yellow accent dot -->
+    <path android:fillColor="#FCD116"
+        android:pathData="M82,44 A4,4 0 1,1 81.99,44 Z"/>
+</vector>

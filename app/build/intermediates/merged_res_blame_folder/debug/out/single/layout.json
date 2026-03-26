@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/fragment_chats.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_otp_verification.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_otp_verification.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_media_viewer.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_media_viewer.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/fragment_contacts.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_register.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_edit_profile.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_call.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_call.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_settings.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/item_message_received.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/item_message_sent.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_phone_auth.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_phone_auth.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_group_chat.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_group_chat.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/item_user.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_chat.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/item_conversation.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_conversation.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/fragment_profile.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_new_conversation.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_new_conversation.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/fragment_status.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_splash.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-mergeDebugResources-49:/layout/activity_create_group.xml",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_create_group.xml"
+    }
+]

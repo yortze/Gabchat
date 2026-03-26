@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gabchat_green">
+
+    <!-- Background gradient overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_call_gradient"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Remote video (fullscreen) -->
+    <FrameLayout
+        android:id="@+id/layout_remote_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Contact info -->
+    <LinearLayout
+        android:id="@+id/layout_contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_default_avatar"
+            app:civ_border_color="#33FFFFFF"
+            app:civ_border_width="3dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_call_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appel en cours..."
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_call_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Local video (small preview) -->
+    <FrameLayout
+        android:id="@+id/iv_local_video"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:background="@color/gabchat_green_dark"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:elevation="8dp" />
+
+    <!-- Call controls -->
+    <LinearLayout
+        android:id="@+id/layout_call_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Row 1: mute, speaker, camera -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <!-- Mute -->
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_mute"
+                    android:layout_width="56dp" android:layout_height="56dp"
+                    android:src="@drawable/ic_mic"
+                    android:background="@drawable/bg_call_button"
+                    android:tint="@color/white" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Micro" android:textColor="#CCFFFFFF" android:textSize="11sp"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- Speaker -->
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_speaker"
+                    android:layout_width="56dp" android:layout_height="56dp"
+                    android:src="@drawable/ic_speaker_off"
+                    android:background="@drawable/bg_call_button"
+                    android:tint="@color/white" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Haut-parleur" android:textColor="#CCFFFFFF" android:textSize="11sp"
+                    android:layout_marginTop="6dp" />
+            </LinearLayout>
+
+            <!-- Camera toggle -->
+            <LinearLayout android:layout_width="80dp" android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="center">
+                <ImageButton
+                    android:id="@+id/btn_toggle_camera"
+                    android:layout_width="56dp" android:layout_height="56dp"
+                    android:src="@drawable/ic_camera"
+                    android:background="@drawable/bg_call_button"
+                    android:tint="@color/white"
+                    android:visibility="gone" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Caméra" android:textColor="#CCFFFFFF" android:textSize="11sp"
+                    android:layout_marginTop="6dp" android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- End call button -->
+        <ImageButton
+            android:id="@+id/btn_end_call"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_call_end"
+            android:background="@drawable/bg_end_call_button"
+            android:tint="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Incoming call controls (shown when receiving) -->
+    <LinearLayout
+        android:id="@+id/layout_incoming_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Decline -->
+        <LinearLayout android:layout_width="100dp" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_decline_call"
+                android:layout_width="72dp" android:layout_height="72dp"
+                android:src="@drawable/ic_call_end"
+                android:background="@drawable/bg_end_call_button"
+                android:tint="@color/white" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Refuser" android:textColor="@color/white" android:textSize="13sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+
+        <!-- Accept -->
+        <LinearLayout android:layout_width="100dp" android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_accept_call"
+                android:layout_width="72dp" android:layout_height="72dp"
+                android:src="@drawable/ic_call"
+                android:background="@drawable/bg_accept_call_button"
+                android:tint="@color/white" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Accepter" android:textColor="@color/white" android:textSize="13sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_camera_off.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_camera_off.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_status.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_status.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_chat.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_image_placeholder.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_image_placeholder.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_mic_off.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_mic_off.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_settings.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_mic.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_edit_profile.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_register.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_gabchat_logo.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_gabchat_logo.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_item_conversation.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_conversation.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_video_call.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_video_call.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_accept_call_button.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_accept_call_button.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_video_placeholder.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_video_placeholder.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_google.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_call_end.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_call_end.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_otp_verification.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_otp_verification.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_call.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_call.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_privacy.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_privacy.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_person.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_lock.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_default_avatar.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_default_avatar.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_end_call_button.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_end_call_button.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_group.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_group.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/xml_file_paths.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/color_bottom_nav_color.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_splash.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_phone_auth.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_phone_auth.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_call_gradient.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_call_gradient.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_unread_badge.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_unread_badge.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_login.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_close.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_speaker_on.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_speaker_on.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_fragment_chats.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_chats.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_fragment_status.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_fragment_profile.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_search.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_item_user.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_edit.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_group_chat.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_group_chat.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_phone_auth.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_phone_auth.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_call.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_call.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_info.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_new_conversation.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_new_conversation.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_play_circle.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_play_circle.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_bubble_received.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_bubble_received.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_notification.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_camera.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_chat.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_create_group.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_phone.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/menu_main_menu.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_main.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_activity_media_viewer.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/activity_media_viewer.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_item_message_sent.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_email.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_stop.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_item_message_received.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_otp_icon.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_otp_icon.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_bubble_sent.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_bubble_sent.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/layout_fragment_contacts.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_online_dot.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_online_dot.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_security.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_security.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_send.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_speaker_off.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_speaker_off.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_otp.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_otp.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_emoji.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_emoji.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_group_icon.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_group_icon.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_contacts.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_contacts.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_call_button.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_call_button.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_attachment.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_attachment.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_bg_send_button.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/bg_send_button.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_dark_mode.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_dark_mode.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.gabon.gabchat.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.gabon.gabchat.app-main-52:/mipmap-xxhdpi/ic_launcher_round.xml"
+    }
+]

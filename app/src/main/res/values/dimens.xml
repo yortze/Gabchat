@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="avatar_small">40dp</dimen>
+    <dimen name="avatar_medium">56dp</dimen>
+    <dimen name="avatar_large">96dp</dimen>
+    <dimen name="message_max_width">280dp</dimen>
+    <dimen name="bubble_corner">18dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="online_dot_size">12dp</dimen>
+    <dimen name="unread_badge_size">20dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+</resources>
